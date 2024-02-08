@@ -1,7 +1,0 @@
-services:
-  mini_web_server:
-    build: ../part5
-  proxy:
-    build: .
-    ports:
-      - 80:8080
